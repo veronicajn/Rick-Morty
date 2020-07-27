@@ -1,0 +1,265 @@
+.gato{
+    -moz-animation:gatoanimation 15s linear infinite;
+    -webkit-animation:gatoanimation 15s linear infinite;
+    animation-name: gatoanimation;
+    animation:gatoanimation 15s  infinite;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    width: 40px;
+    z-index: 1;
+    animation-direction: alternate-reverse;
+    
+    &--two {
+      -moz-animation:gatoanimation2 25s linear infinite;
+      -webkit-animation:gatoanimation2 25s linear infinite;
+      animation-name: gatoanimation2;
+      animation:gatoanimation2 25s  infinite;
+      height: 50px;
+      position: absolute;
+      top: 20px;
+      width: 50px;
+      z-index: 1;
+      animation-direction: alternate-reverse;
+    }
+  
+    &--three {
+      -moz-animation:gatoanimation3 15s linear infinite;
+      -webkit-animation:gatoanimation3 15s linear infinite;
+      animation-name: gatoanimation3;
+      animation:gatoanimation3 13s infinite;
+      height: 80px;
+      position: absolute;
+      top: 20px;
+      width: 80px;
+      z-index: 1;
+      animation-direction: alternate-reverse;
+    }
+  
+    &--four {
+      -moz-animation:gatoanimation4 15s linear infinite;
+      -webkit-animation:gatoanimation4 15s linear infinite;
+      animation-name: gatoanimation4;
+      animation:gatoanimation4 17s  infinite;
+      height: 60px;
+      position: absolute;
+      top: 20px;
+      width: 60px;
+      z-index: 1;
+      animation-direction: alternate-reverse;
+    }
+  
+    &--five {
+      -moz-animation:gatoanimation5 15s linear infinite;
+      -webkit-animation:gatoanimation5 15s linear infinite;
+      animation-name: gatoanimation5;
+      animation:gatoanimation5 16s infinite;
+      height: 50px;
+      position: absolute;
+      top: 20px;
+      width: 50px;
+      z-index: 1;
+      animation-direction: alternate-reverse;
+    }
+  
+    &--six {
+      -moz-animation:gatoanimation6 15s linear infinite;
+      -webkit-animation:gatoanimation6 15s linear infinite;
+      animation-name: gatoanimation6;
+      animation:gatoanimation6 20s  infinite;
+      height: 20px;
+      position: absolute;
+      top: 20px;
+      width: 20px;
+      z-index: 1;
+      animation-direction: alternate-reverse;
+    }
+  
+    &--seven {
+      -moz-animation:gatoanimation7 15s linear infinite;
+      -webkit-animation:gatoanimation7 15s linear infinite;
+      animation-name: gatoanimation7;
+      animation:gatoanimation7 25s  infinite;
+      height: 250px;
+      position: absolute;
+      top: 20px;
+      width: 250px;
+      z-index: 1;
+      animation-direction: alternate-reverse;
+    }
+  
+    &--eight {
+      -moz-animation:gatoanimation8 15s linear infinite;
+      -webkit-animation:gatoanimation8 15s linear infinite;
+      animation-name: gatoanimation8;
+      animation:gatoanimation8 12s  infinite;
+      height: 100px;
+      position: absolute;
+      top: 20px;
+      width: 100px;
+      z-index: 1;
+      animation-direction: alternate-reverse;
+    }
+  
+    &--nine {
+      -moz-animation:gatoanimation9 15s linear infinite;
+      -webkit-animation:gatoanimation9 15s linear infinite;
+      animation-name: gatoanimation9;
+      animation:gatoanimation9 18s  infinite;
+      height: 120px;
+      position: absolute;
+      top: 20px;
+      width: 120px;
+      z-index: 1;
+      animation-direction: alternate-reverse;
+    }
+  
+    &--ten {
+      -moz-animation:gatoanimation10 15s linear infinite;
+      -webkit-animation:gatoanimation10 15s linear infinite;
+      animation-name: gatoanimation10;
+      animation:gatoanimation10 25s  infinite;
+      height: 30px;
+      position: absolute;
+      top: 20px;
+      width: 30px;
+      z-index: 1;
+      animation-direction: alternate-reverse;
+    }
+  
+  }
+  
+  @keyframes gatoanimation {
+    0% {
+      left:1200px  ;
+      top:460px ;
+    }
+  
+    100% {
+      -webkit-transform: rotate(360deg);
+      left:350px; 
+      top:200px;
+      transform:rotate(360deg);
+    }
+  }
+  
+  @keyframes gatoanimation2 {
+    0% {
+      left:1200px; 
+      top: 700px;
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      left:300px;
+      top:-200px;
+      transform:rotate(360deg);
+    }
+  }
+  
+  @keyframes gatoanimation3 {
+    0% {
+      left: 750px;
+      top: 300px;
+    }
+    100% {
+      -webkit-transform: rotate(360deg); 
+      left:750px; 
+      top:0px;
+      transform:rotate(360deg);
+    }
+  }
+  
+  @keyframes gatoanimation4 {
+    0% {
+      left: 350px;
+      top: 500px;
+    }
+    100% {
+      -webkit-transform: rotate(360deg); 
+      left:850px; 
+      top:400px;
+      transform:rotate(360deg);
+    }
+  }
+  
+  @keyframes gatoanimation5 {
+    0% {
+      left: 350px;
+      top: 100px;
+    }
+    100% {
+      -webkit-transform: rotate(360deg); 
+      left:350px; 
+      top:260px;
+      transform:rotate(360deg);
+    }
+  }
+  
+  @keyframes gatoanimation6 {
+    0% {
+      left: 800px;
+      top: 50px;
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+      left:1100px; 
+      top:50px;
+      transform:rotate(360deg);
+    }
+  }
+  
+  @keyframes gatoanimation7 {
+    0% {
+      left: 800px;
+      top: 500px;
+    }
+  
+    100% {
+      -webkit-transform: rotate(360deg); 
+      left: 800px;
+      top: 500px;
+      transform:rotate(360deg);
+    }
+  }
+  
+  @keyframes gatoanimation8 {
+    0% {
+      left: 350px;
+      top: 319px;
+    }
+  
+    100% {
+      -webkit-transform: rotate(360deg); 
+      left:350px; 
+      top:546px;
+      transform:rotate(360deg);
+    }
+  }
+  
+  @keyframes gatoanimation9 {
+    0% {
+      left: 250px;
+      top: -173px;
+    }
+  
+    100% {
+      -webkit-transform: rotate(360deg); 
+      left: -53px;
+      top: 500px;
+      transform:rotate(360deg);
+    }
+  }
+  
+  @keyframes gatoanimation10 {
+    0% {
+      left:250px; 
+      top: 10px;
+    }
+  
+    100% {
+      -webkit-transform: rotate(360deg); 
+      left:250px; 
+      top:10px;
+      transform:rotate(360deg);
+    }
+  }

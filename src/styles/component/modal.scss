@@ -1,0 +1,143 @@
+.modal {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,.9);
+    z-index: 8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    pointer-events: none;
+
+    &--show {
+        opacity: 1;
+        pointer-events: all;
+    }
+
+    &__content {
+        width: 90%;
+        max-width: 800px;
+        margin: 0 auto;
+        background-color: #fff;
+        text-align: center;
+    }
+
+    &__image {
+        width: 90%;
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+    &__close{
+        position: absolute;
+        background: #0f0f0f;
+        color: #fff;
+        top: 0;
+        right: 0;
+        line-height: 0;
+        padding: 24px;
+        font-size: 23px;
+        position: absolute;
+        z-index: 3;
+    }
+
+
+    &__header {
+        position: relative;
+        overflow: hidden;
+        background: transparent;
+
+        &__bg {
+            background: url('https://wallpaperboat.com/wp-content/uploads/2019/04/rick-and-morty-wallpaper-portal-wallpaper-001.jpg') center center no-repeat;
+            animation: backgroundRotate;
+            animation-duration: 120s;
+            animation-iteration-count: infinite;
+            animation-timing-function: linear;
+            position: absolute;
+            left: 0;
+            top: -279px;
+            width: 100%;
+            height: 104vh
+        }
+    }
+
+    &__content {
+        width: 90%;
+        max-width: 800px;
+        margin: 0 auto;
+        background: #fff;
+    }
+
+    &__image {
+        display: block;
+        margin: 0 auto;
+        max-width: 300px;
+        width: 50%;
+        padding: 20px 0;
+        position: relative;
+        z-index: 3;
+    }
+
+    &__container {
+        width: 90%;
+        margin: 0 auto;
+        padding: 40px 0;
+    }
+
+    &__name,
+    &__type {
+        font-family: 'Roboto', sans-serif;
+        font-size: 25px;
+    }
+
+    &__text {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    }
+
+    &__name {
+        margin-bottom: 20px;
+    }
+
+    &__residents {
+        display: flex;
+        margin-top: 25px;
+        overflow: hidden;
+        overflow-x: scroll;
+        padding-bottom: 25px;
+        width: 100%;
+    }
+
+    &__resident {
+        margin-right: 20px;
+
+        &--hide {
+            display: none;
+        }
+        
+        &:last-of-type {
+            margin: 0;
+        }
+
+        &__image {
+            border-radius: 3px;
+            margin-bottom: 15px;
+        }
+
+        &__name {
+            font-family: 'Roboto', sans-serif;
+        }
+    }
+}
+
+@keyframes backgroundRotate {
+    0% {
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

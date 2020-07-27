@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick & Morty</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato|Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="dist/build.css">
+</head>
+<body>
+    <section class="section">
+        <aside class="aside">
+            <header class="aside__header">
+                <img class="aside__header__image" src="https://raw.githubusercontent.com/franamaterasu/rick-and-morty/master/dist/images/bg-main.png" alt="Rick & Morty">
+            </header>
+            <nav class="aside__nav">
+                <ul>
+                    <li class="aside__nav__item">
+                        <span id="navCharacters" class="aside__nav__link" href="">Characters</span>
+                    </li>
+                    <li class="aside__nav__item">
+                        <span id="navLocations" class="aside__nav__link" href="">Locations</span>
+                    </li>
+                    <li class="aside__nav__item">
+                        <span id="navEpisodes" class="aside__nav__link" href="">Episodes</span>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <main class="main">
+            <section class="filter">
+                <input class="filter__input" type="text" placeholder="Buscador...">
+            </section>
+                <section class="main-container">
+                    <section id="sigma" class="sigma"></section>
+                    
+                    <!-- Personajes -->
+                    <img class="main-image" src="https://raw.githubusercontent.com/franamaterasu/rick-and-morty/master/dist/images/nave.png"/>
+                    <section id="charactersContainer" class="mainContent">
+                        <section class="characters card__section">
+                            <article class="character__card inv__card_principal">
+                                <div class="card--character">
+                                    <div class="card__image__container card__image__container--location">
+                                        <div class="card__tag character__species"></div>
+                                        <img src="" class="card__image character__image">
+                                    </div>
+                                    <div class="card__info">
+                                        <p class="card__info__text character__name"></p>
+                                        <hr/>
+                                        <p class="card__info__text character__location"></p>
+                                    </div>
+                                </div>
+                            </article>
+                        </section>
+                    </section>
+
+                    <!-- Localizaciones -->
+                    <section id="locationContainer" class="mainContent">
+                        <section class="locations">
+                            <article class="card card--hidden card--location">
+                                <div class="card__image__container card__image__container--location">
+                                    <img class="card__image location__image">
+                                    <div class="card__tag location__dimension"></div>
+                                </div>
+                                <div class="card__info">
+                                    <p class="card__info__text location__name"></p>
+                                    <hr>
+                                    <p class="card__info__text location__residents"></p>
+                                </div>
+                            </article>
+                        </section>
+                    </section>
+
+                    <!-- Episodios -->
+                    <section id="episodesContainer" class="mainContent">
+                        <section class="card__episodes">
+                            <h1 class="s1">SEASON</h1>
+                            <div class="episodes card__episodes__season1"></div>
+                            <div class="episodes card__episodes__season2"></div>
+                            <div class="card episodes__card inv__card_principal2">
+                                <div class="card__image__container card__image__container--episodes">
+                                    <div class="card__tag episode__number"></div>
+                                    <img class="card__image episode__characters">
+                                </div>
+                                <div class="card__info">
+                                    <p class="card__info__text episode__name"></p>
+                                    <hr>
+                                    <p class="card__info__text episode__created"></p>
+                                    <hr>
+                                    <p class="card__info__text episode__airdate"></p>
+                                </div>
+                            </div>
+                        </section>
+                    </section>
+            </section>
+
+            <!-- Modal localización -->
+
+            <section class="modal-locations">
+                <div class="modal__content">
+                    <header class="modal__header">
+                        <div class="modal-locations__close">X</div>
+                        <img class="modal__image">
+                        <div class="modal__header__bg">
+                        </div>
+                    </header>
+                    <div class="modal__info">
+                        <div class="modal__container">
+                            <span class="modal__name"></span> - <span class="modal__type"></span>
+                            <section class="modal__residents"></section>
+                        </div>
+                    </div>
+                    
+                </div>
+            </section>
+
+            <!-- Modal Personajes -->
+
+            <section class="modal modal-character">
+                <class class="modal__content">
+                    <header class="modal__header">
+                        <div class="modal__close modal-character__close">X</div>
+                        <img class="modal__image">
+                        <div class="modal__header__bg">
+                        </div>
+                    </header>
+                    <div class="modal__info">
+                        <div class="modal__container">
+                            <p class="modal__name"></p>
+                            <hr>
+                            <p class="modal__text modal__status"></p>
+                            <hr>
+                            <p class="modal__text modal__species"></p>
+                            <hr>
+                            <p class="modal__text modal__gender"></p>
+                            <hr>
+                            <p class="modal__text modal__location"></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <img src="https://raw.githubusercontent.com/franamaterasu/rick-and-morty/master/dist/images/cat.png" alt="Cat" class="gato gato--one">
+            <img src="https://raw.githubusercontent.com/franamaterasu/rick-and-morty/master/dist/images/cat.png" alt="Cat" class="gato gato--two">
+            <img src="https://raw.githubusercontent.com/franamaterasu/rick-and-morty/master/dist/images/cat.png" alt="Cat" class="gato gato--three">
+            <img src="https://raw.githubusercontent.com/franamaterasu/rick-and-morty/master/dist/images/cat.png" alt="Cat" class="gato gato--four">
+            <img src="https://raw.githubusercontent.com/franamaterasu/rick-and-morty/master/dist/images/cat.png" alt="Cat" class="gato gato--five">
+            <img src="https://raw.githubusercontent.com/franamaterasu/rick-and-morty/master/dist/images/cat.png" alt="Cat" class="gato gato--six">
+            <img src="https://raw.githubusercontent.com/franamaterasu/rick-and-morty/master/dist/images/cat.png" alt="Cat" class="gato gato--seven">
+            <img src="https://raw.githubusercontent.com/franamaterasu/rick-and-morty/master/dist/images/cat.png" alt="Cat" class="gato gato--eight">
+            <img src="https://raw.githubusercontent.com/franamaterasu/rick-and-morty/master/dist/images/cat.png" alt="Cat" class="gato gato--nine">
+            <img src="https://raw.githubusercontent.com/franamaterasu/rick-and-morty/master/dist/images/cat.png" alt="Cat" class="gato gato--ten">
+        </main>
+    </section>
+
+    <!-- Templates -->
+        <article class="modal__resident modal__resident--hide">
+            <img class="modal__resident__image">
+            <p class="modal__resident__name"></p>
+        </article>
+
+    <script src="dist/build.js"></script>
+</body>
+</html>

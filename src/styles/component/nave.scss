@@ -1,0 +1,19 @@
+.main-image {
+    margin: 0 auto;
+    display: block;
+    transform: scale(1.4);
+    animation-name: nave;
+    animation-duration: 6s;
+    animation-delay: 1s;
+    position: absolute;
+    left: 26%;
+    top: 40%
+}
+
+@keyframes nave {
+    0% {
+        top: 0;
+        left: -50%;
+        transform: scale(.7);
+    }
+}

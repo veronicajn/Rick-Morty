@@ -1,0 +1,21 @@
+// Base
+@import './base/mediaQueries';
+@import './base/base';
+
+// Layout
+@import './layout/main';
+@import './layout/aside';
+
+// Components
+@import './component/filter';
+@import './component/cat';
+@import './component/card';
+@import './component/modal';
+@import './component/modalLocation';
+@import './component/nave';
+
+//episodes
+@import './component/card_episodes';
+
+//characters
+@import './component/card_characters';

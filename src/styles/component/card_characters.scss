@@ -1,0 +1,17 @@
+.inv__card_principal{
+    display: none;
+}
+
+.card--character {
+    transition: box-shadow .8s ease-in-out;
+    user-select: none;
+
+    &:hover {
+        box-shadow: 0 0 50px #5cb04d;
+        cursor: pointer;
+    
+        .character__image {
+          transform: scale(1.3);
+        }
+      }
+}
