@@ -12688,7 +12688,7 @@ var residentsContainer = document.querySelector('.modal__residents');
 
 function showIndividualPlanet(data) {
   modalLocation.classList.add('modal-locations--show');
-  modalLocation.querySelector('.modal__image').setAttribute('src', 'https://github.com/veronicajn/RickAndMorty/tree/master/dist/images/planet.png');
+  modalLocation.querySelector('.modal__image').setAttribute('src', 'https://github.com/veronicajn/RickAndMorty/blob/master/dist/images/planet.png');
   modalLocation.querySelector('.modal__name').innerHTML = data.name;
   modalLocation.querySelector('.modal__type').innerHTML = data.type;
   showLocationResidents(data);
@@ -12822,9 +12822,9 @@ navEpisodes.onclick = showEpisodes;
   !*** ./src/styles/main.scss ***!
   \******************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-// extracted by mini-css-extract-plugin
+throw new Error("Module build failed (from ./node_modules/mini-css-extract-plugin/dist/loader.js):\nModuleNotFoundError: Module not found: Error: Can't resolve './dist/images/nav-button.png' in 'G:\\PROYECTOS JS\\rickandmorty\\src\\styles'\n    at G:\\PROYECTOS JS\\rickandmorty\\node_modules\\webpack\\lib\\Compilation.js:925:10\n    at G:\\PROYECTOS JS\\rickandmorty\\node_modules\\webpack\\lib\\NormalModuleFactory.js:401:22\n    at G:\\PROYECTOS JS\\rickandmorty\\node_modules\\webpack\\lib\\NormalModuleFactory.js:130:21\n    at G:\\PROYECTOS JS\\rickandmorty\\node_modules\\webpack\\lib\\NormalModuleFactory.js:224:22\n    at G:\\PROYECTOS JS\\rickandmorty\\node_modules\\neo-async\\async.js:2830:7\n    at G:\\PROYECTOS JS\\rickandmorty\\node_modules\\neo-async\\async.js:6877:13\n    at G:\\PROYECTOS JS\\rickandmorty\\node_modules\\webpack\\lib\\NormalModuleFactory.js:214:25\n    at G:\\PROYECTOS JS\\rickandmorty\\node_modules\\enhanced-resolve\\lib\\Resolver.js:213:14\n    at G:\\PROYECTOS JS\\rickandmorty\\node_modules\\enhanced-resolve\\lib\\Resolver.js:285:5\n    at eval (eval at create (G:\\PROYECTOS JS\\rickandmorty\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:13:1)\n    at G:\\PROYECTOS JS\\rickandmorty\\node_modules\\enhanced-resolve\\lib\\UnsafeCachePlugin.js:44:7\n    at G:\\PROYECTOS JS\\rickandmorty\\node_modules\\enhanced-resolve\\lib\\Resolver.js:285:5\n    at eval (eval at create (G:\\PROYECTOS JS\\rickandmorty\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:13:1)\n    at G:\\PROYECTOS JS\\rickandmorty\\node_modules\\enhanced-resolve\\lib\\Resolver.js:285:5\n    at eval (eval at create (G:\\PROYECTOS JS\\rickandmorty\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:25:1)\n    at G:\\PROYECTOS JS\\rickandmorty\\node_modules\\enhanced-resolve\\lib\\DescriptionFilePlugin.js:67:43\n    at G:\\PROYECTOS JS\\rickandmorty\\node_modules\\enhanced-resolve\\lib\\Resolver.js:285:5\n    at eval (eval at create (G:\\PROYECTOS JS\\rickandmorty\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:14:1)\n    at G:\\PROYECTOS JS\\rickandmorty\\node_modules\\enhanced-resolve\\lib\\Resolver.js:285:5\n    at eval (eval at create (G:\\PROYECTOS JS\\rickandmorty\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:25:1)\n    at G:\\PROYECTOS JS\\rickandmorty\\node_modules\\enhanced-resolve\\lib\\DescriptionFilePlugin.js:67:43\n    at G:\\PROYECTOS JS\\rickandmorty\\node_modules\\enhanced-resolve\\lib\\Resolver.js:285:5\n    at eval (eval at create (G:\\PROYECTOS JS\\rickandmorty\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:14:1)\n    at G:\\PROYECTOS JS\\rickandmorty\\node_modules\\enhanced-resolve\\lib\\Resolver.js:285:5\n    at eval (eval at create (G:\\PROYECTOS JS\\rickandmorty\\node_modules\\tapable\\lib\\HookCodeFactory.js:33:10), <anonymous>:13:1)\n    at G:\\PROYECTOS JS\\rickandmorty\\node_modules\\enhanced-resolve\\lib\\DirectoryExistsPlugin.js:27:15\n    at G:\\PROYECTOS JS\\rickandmorty\\node_modules\\enhanced-resolve\\lib\\CachedInputFileSystem.js:85:15\n    at processTicksAndRejections (internal/process/task_queues.js:79:11)");
 
 /***/ })
 
