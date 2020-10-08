@@ -1,29 +1,27 @@
-
-
 .main {
-  background: url("https://raw.githubusercontent.com/franamaterasu/rick-and-morty/master/dist/images/bg.jpg") no-repeat top center;
+  background: url("/dist/images/bg.jpg") no-repeat top center;
   background-size: cover;
   padding-bottom: 100px;
   position: relative;
 }
-  
+
 .characters,
 .locations,
 .episodes {
   width: 90%;
   margin: 0 auto;
   display: grid;
-  grid-template: auto / repeat(2,1fr);
+  grid-template: auto / repeat(2, 1fr);
   z-index: 5;
   gap: 20px;
   position: relative;
-  
+
   @media(min-width: $big) {
-    grid-template: auto / repeat(3,1fr);
+    grid-template: auto / repeat(3, 1fr);
   }
 
   @media(min-width: $big-xl) {
-    grid-template: auto / repeat(4,1fr);
+    grid-template: auto / repeat(4, 1fr);
   }
 }
 

@@ -14,7 +14,7 @@ body {
   grid-template: auto / 1fr 4fr; }
 
 .main {
-  background: url("https://raw.githubusercontent.com/franamaterasu/rick-and-morty/master/dist/images/bg.jpg") no-repeat top center;
+  background: url("/dist/images/bg.jpg") no-repeat top center;
   background-size: cover;
   padding-bottom: 100px;
   position: relative; }
@@ -65,7 +65,7 @@ body {
       width: 100%;
       height: auto; }
   .aside__nav__item {
-    background: url("https://raw.githubusercontent.com/franamaterasu/rick-and-morty/master/dist/images/nav-button.png") center center;
+    background: url("/dist/images/nav-button.png") center center;
     background-size: cover;
     width: 184px;
     height: 79px;
