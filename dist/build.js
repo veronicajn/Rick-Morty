@@ -12688,7 +12688,7 @@ var residentsContainer = document.querySelector('.modal__residents');
 
 function showIndividualPlanet(data) {
   modalLocation.classList.add('modal-locations--show');
-  modalLocation.querySelector('.modal__image').setAttribute('src', 'https://raw.githubusercontent.com/franamaterasu/rick-and-morty/Show-location/dist/images/planet.png');
+  modalLocation.querySelector('.modal__image').setAttribute('src', 'https://github.com/veronicajn/RickAndMorty/tree/master/dist/images/planet.png');
   modalLocation.querySelector('.modal__name').innerHTML = data.name;
   modalLocation.querySelector('.modal__type').innerHTML = data.type;
   showLocationResidents(data);

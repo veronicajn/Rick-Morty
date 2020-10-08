@@ -12,7 +12,7 @@ export function loadHome(data) {
 export let s;
 
 export function forEachResident(residents, func) {
-    for(let resident of residents) {     
+    for(let resident of residents) {
         fetch(resident)
         .then(response => {
             response.json()
