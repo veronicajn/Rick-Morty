@@ -1,59 +1,59 @@
 .aside {
-    background: #0f0f0f;
-    z-index: 2;
+  background: #0f0f0f;
+  z-index: 2;
 
-    &__header {
-        margin-bottom: 33px;
+  &__header {
+    margin-bottom: 33px;
 
-        @media(min-width: $big-xl) {
-            margin-bottom: 70px;
-        }
-
-        &__image {
-            width: 100%;
-            height: auto;
-        }
+    @media(min-width: $big-xl) {
+      margin-bottom: 70px;
     }
 
-    &__nav {
-        &__item {
-            background: url('dist/images/nav-button.png') center center;
-            background-size: cover;
-            width: 184px;
-            height: 79px;
-            margin: 0 auto 10px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            transition: transform .8s ease-in-out;
-            transform: scale(.8);
-
-            @media(min-width: $big) {
-                transform: scale(1);
-                margin: 0 auto 30px;
-            }
-
-            &:last-of-type {
-                margin: 0 auto;
-            }
-
-            &:hover {
-                cursor: pointer;
-                transform: scale((1.1));
-            }
-
-            @media(min-width: $big-xl) {
-                margin: 0 auto 50px;
-            }
-        }
-
-        &__link {
-            color: #0f0f0f;
-            text-decoration: none;
-            font-family: 'Lato', sans-serif;
-            font-weight: 700;
-            font-size: 22px;
-            line-height: 0;
-        }
+    &__image {
+      width: 100%;
+      height: auto;
     }
+  }
+
+  &__nav {
+    &__item {
+      background: url('/dist/images/nav-button.png') center center;
+      background-size: cover;
+      width: 184px;
+      height: 79px;
+      margin: 0 auto 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transition: transform .8s ease-in-out;
+      transform: scale(.8);
+
+      @media(min-width: $big) {
+        transform: scale(1);
+        margin: 0 auto 30px;
+      }
+
+      &:last-of-type {
+        margin: 0 auto;
+      }
+
+      &:hover {
+        cursor: pointer;
+        transform: scale((1.1));
+      }
+
+      @media(min-width: $big-xl) {
+        margin: 0 auto 50px;
+      }
+    }
+
+    &__link {
+      color: #0f0f0f;
+      text-decoration: none;
+      font-family: 'Lato', sans-serif;
+      font-weight: 700;
+      font-size: 22px;
+      line-height: 0;
+    }
+  }
 }
